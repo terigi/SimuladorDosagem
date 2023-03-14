@@ -1,0 +1,48 @@
+.banner {
+    position: absolute;
+    right: 0;
+    width:850px;
+    height:625px;
+    top:0%;
+    bottom:0%;
+    background-color: #ffffff;
+    
+  }
+
+  .letra{
+    color: white;
+    font-size: 28px;
+  }
+
+  body{
+    background-color: #00c188;
+  }
+
+  #enun{
+      background-color: white;
+  }
+
+  h3{
+      color: #00c188;
+      margin-right: 17px;
+  }
+
+  ul.circle {
+	list-style-type: circle;
+  font-size: 28px;
+	}
+
+.inicio2{
+        position:absolute; 
+        /*top:71%;*/
+        left:93.8%;
+        /*transform: translate(-50%, -50%);*/
+        border-radius: 20px;
+        color: #00c188;
+        font-size: 12px;
+}
+
+.et {
+
+  font-size: 28px;
+}

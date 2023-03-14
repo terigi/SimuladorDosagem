@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="equimicrogts.css">
+  <title>Equipo Microgoas(mgts)</title>
+</head>
+
+<body class="fundo1">
+
+    <form method="get" action="index.html">
+    <button class="inicio2" type="submit"><h2>Home</h2></button></form>
+
+    <div class="D">
+        
+         &nbsp&nbspmgts/min<br>
+         &nbsp&nbsp<u>  V . 60</u><br>
+         &nbsp&nbspT(min)<br>
+         
+
+    </div>
+
+  <form class="Ma">
+
+    <p class="certos">9 CERTOS DA ADMINISTRAÇÃO DE MEDICAMENTOS
+    <ul class="certos">
+                <li><marquee  direction="down" behavior="slide" scrollamount="5">Medicação certa</marquee></li>
+                <li><marquee  direction="down" behavior="slide" scrollamount="3">Paciente certo</marquee></li>
+                <li><marquee  direction="down" behavior="slide" scrollamount="2">Dose certa</marquee></li>
+    </ul></p>
+    
+    Insira o valor calculado de microgotas(mgts) que devem fluir por minuto: <br>
+    <input type="number" id="n1">mgts<br>
+    Insira o valor do volume prescrito : <br>
+    <input type="number" id="n2">ml<br>
+    Insira o tempo a ser administrado: <br>
+    <input type="number" id="n3">min<br>
+    <input type="button" onclick="javascript:calculoMedia();" value="Comparar Valores">
+  
+  </form>
+
+    <textarea class="T" name="" id="" cols="40" rows="21" placeholder="Anotações: "></textarea>
+
+</body>
+
+<script>
+        function calculoMedia()
+{
+  var velocidade;
+  var n1 = parseFloat(document.getElementById('n1').value);
+  var n2 = parseFloat(document.getElementById('n2').value);
+  var n3 = parseFloat(document.getElementById('n3').value);
+  velocidade = (n2 * 60) / n3;
+  var V = velocidade.toFixed(2);
+  var Vi = velocidade.toFixed(0);
+  var S = V - Vi;
+  var Si = S.toFixed(1);
+
+  if(Si > 0.5){
+      Vi++;
+      if(Vi == n1){
+            alert("Valor Correto!")
+            window.location.href = "validacaoequipo.html";
+            }
+        else{
+            alert("Valor incorreto!")
+            alert("Refaça os calculos novamente")
+            }
+  }
+  else if(Si <= 0.5){
+      if(Vi == n1){
+            alert("Valor Correto!")
+            window.location.href = "validacaoequipo.html";
+            }
+        else{
+            alert("Valor incorreto!")
+            alert("Refaça os calculos novamente")
+            }
+  }
+
+
+}
+  </script>
+
+</html>

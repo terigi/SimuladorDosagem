@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="penin.css">
+  <title>Penicilina Ampola 10.000.000 UI</title>
+</head>
+
+<body class="fundo1">
+
+    <form method="get" action="index.html">
+    <button class="inicio2" type="submit"><h2>Home</h2></button></form>
+
+    <div class="Di">
+        
+         &nbspPenicilina Ampola 10.000.000<br>
+         &nbspV(penicilina) = 2 ml<br>
+         &nbspV(H2Odet) = 8 ml<br>
+         &nbspV(total) = 10 ml
+
+    </div>
+
+  <form class="M">
+
+    <p class="certos">9 CERTOS DA ADMINISTRAÇÃO DE MEDICAMENTOS
+    <ul class="certos">
+                <li><marquee  direction="down" behavior="slide" scrollamount="5">Medicação certa</marquee></li>
+                <li><marquee  direction="down" behavior="slide" scrollamount="3">Paciente certo</marquee></li>
+                <li><marquee  direction="down" behavior="slide" scrollamount="2">Dose certa</marquee></li>
+    </ul></p>
+
+    Insira o valor de penicilina prescrito: <br>
+    <input type="number" id="n1">UI<br>
+    Insira o valor de volume que será aplicada calculado: <br>
+    <input type="number" id="n2">ml<br>
+    <input type="button" onclick="javascript:calculoMedia();" value="Comparar Valores">
+  
+  </form>
+
+    <textarea class="T" name="" id="" cols="40" rows="21" placeholder="Anotações: "></textarea>
+
+</body>
+
+<script>
+        function calculoMedia()
+{
+  var volume;
+  var n1 = parseFloat(document.getElementById('n1').value);
+  var n2 = parseFloat(document.getElementById('n2').value);
+  volume = (10 * n1) / 10000000;
+  var V = volume.toFixed(2);
+  
+  if(V == n2){
+            alert("Valor Correto!")
+            window.location.href = "validacaoinjecao.html";
+            }
+        else{
+            alert("Valor incorreto!")
+            alert("Refaça os calculos novamente")
+            }
+  
+  
+
+}
+    </script>
+
+</html>

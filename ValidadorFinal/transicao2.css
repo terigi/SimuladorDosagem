@@ -1,0 +1,56 @@
+.fundo2{
+    background-color: #00c188;
+    width:1320px;
+    height:577px;
+    border: 15px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: whitesmoke whitesmoke whitesmoke whitesmoke;
+}
+
+.botão001{
+    position:absolute; 
+    top:center;
+    left:center;
+    right:18.8%;
+    bottom:55.6%;
+    transform: translate(-101%, -80%);
+    border-radius: 20px;
+    color: #00c188;
+    font-size: 18px;
+}
+
+.botão002{  
+    position:absolute; 
+    top:center;
+    left:center;
+    right:27.2%;
+    bottom:26.5%;
+    transform: translate(-60%, -80%);
+    border-radius: 20px;
+    color: #00c188;
+    font-size: 18px;
+}
+
+.botão003{  
+    position:absolute; 
+    top:center;
+    left:center;
+    right:43.2%;
+    bottom:3.7%;
+    transform: translate(-60%, -80%);
+    border-radius: 20px;
+    color: #00c188;
+    font-size: 18px;
+}
+
+.home2{
+    position:absolute; 
+    top:5%;
+    left:93%;
+    /*top:71%;
+    left:13.2%;*/
+    /*transform: translate(-50%, -50%);*/
+    border-radius: 20px;
+    color: #00c188;
+    font-size: 12px;
+}
+

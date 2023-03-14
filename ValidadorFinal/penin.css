@@ -1,0 +1,63 @@
+.fundo1{
+    background-color: #00c188;
+    width:1320px;
+    height:577px;
+    border: 15px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: whitesmoke whitesmoke whitesmoke whitesmoke;
+}
+
+.M{
+    position:absolute; 
+    top:5%;
+    /*background-color: white;*/
+    right: 32.5%;
+    bottom:0%;
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+.T{
+    position:absolute; 
+    top:15%;
+    right:15%;
+}
+
+.D{
+ color: whitesmoke;
+ width:60px;
+ height:60px;
+ border: 1px solid; 
+ border-color: whitesmoke whitesmoke whitesmoke whitesmoke;
+ margin-left: 44.39%;
+ margin-top: 1%;
+}
+
+.Di{
+    color: whitesmoke;
+    width:318px;
+    height:118px;
+    border: 1px solid; 
+    border-color: whitesmoke whitesmoke whitesmoke whitesmoke;
+    margin-left: 70%;
+    margin-top: 7%;
+    font-size: 25px
+   }
+
+.inicio2{
+    position:absolute; 
+    top:5%;
+    left:93%;
+    border-radius: 20px;
+    color: #00c188;
+    font-size: 12px;
+}
+
+.T {
+    margin-top: 12%;
+    margin-right: -7.7%;
+}
+
+.certos {
+    color: black;
+}
+

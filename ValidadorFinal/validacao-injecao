@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Penincilina Ampola 10.000.000 UI</title>
+        <link rel="stylesheet" type="text/css" href="injecao.css">
+    </head>
+
+    <body>
+            
+
+            <video class="banner" src="injecao.mp4"
+             autoplay="true" muted loop>
+            </video>
+
+            <form method="get" action="index.html">
+            <button class="inicio1" type="submit"><h2>Home</h2></button></form>
+
+            <div class="letra">
+            
+            <div id="enun">
+            <h3>9 CERTOS DA ADMINSTRAÇÃO DE MEDICAMENTOS</h3>
+            </div>
+            
+            <ul class="circle">
+                <br><li>Medicação certa</li><br>
+                <br><li>Paciente certo</li><br>
+                <br><li>Dose certa</li><br>
+                <br><li>Via certa</li><br>
+                <br><li>Horário certo</li><br>
+                <br><li>Registro certo</li><br>
+                <br><li>Ação certa</li><br>
+                <br><li>Forma farmacêutica certa</li><br>
+                <br><li>Monitoramento certo</li><br>
+            </ul>
+            </div>
+    
+    </body>
+</html>
